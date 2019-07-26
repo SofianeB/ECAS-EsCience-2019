@@ -22,7 +22,7 @@ eScience 2019 15th International Conference, 24-27 September, San Diego, USA
 
 ## Architecture
 
-<img src="images/new_ecas_architecture.png" height="455" width="695" alt='ECAS Architecture'>
+<img src="slides/images/new_ecas_architecture.png" height="455" width="695" alt='ECAS Architecture'>
 
 ---
 
