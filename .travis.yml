@@ -10,7 +10,7 @@ install:
     - wget https://github.com/hakimel/reveal.js/archive/master.zip
     - unzip master.zip
     - mv reveal.js-master reveal.js
-    - sudo apt-get install rubygems
+    - sudo apt-get install ruby
     - gem install reveal-ck 
 
 script:
