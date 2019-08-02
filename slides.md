@@ -106,8 +106,8 @@ https://eosc-portal.eu/
 ---
 
 
-#### Data overview 
-<img src="images/esgf.png" height="90" width="490" alt='ECAS' style="border: 0">
+### Data overview 
+<img src="images/esgf.png" height="80" width="470" alt='ECAS' style="border: 0">
 
 * ECAS provides data access via ESGF
 * Coordinated Regional Climate Downscaling Experiment
@@ -117,8 +117,8 @@ https://eosc-portal.eu/
 * Coupled Model Intercomparison Project 6
   * ~ 250 Tbyte CMIP6 data from the 1PByte published
 * Other data pools can be mounted on demand 
-  * MPI Grand Ensemble (MPI-GE)
-  * Data collection exposed in the Federated Data Archive (e.g. OneData) 
+  * MPI Grand Ensemble (**MPI-GE**)
+  * Data collection exposed in the Federated Data Archive (e.g. **OneData**) 
 
 ---
 
