@@ -1,4 +1,12 @@
-theme: "sky"
-transition: "page"
-author: "Sofiane und Carsten"
-title: "ECAS / Birdhouse"
+theme: "white"
+#transition: "page"
+#highlight: pygments
+transition: "concave"
+author: "Sofiane Bendoukha"
+title: "ECAS Training eScience 2019"
+revealjs_config:
+  slideNumber: 'c/t'
+  #autoSlide: 5000
+  #loop: true
+  #parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'
+  parallaxBackgroundSize: '2100px 900px'
