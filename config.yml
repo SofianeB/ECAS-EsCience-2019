@@ -1,4 +1,4 @@
-theme: "white"
+theme: "my_theme"
 #transition: "page"
 #highlight: pygments
 transition: "concave"
