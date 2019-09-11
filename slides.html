@@ -1,0 +1,482 @@
+<section>
+
+<h1>Data Analysis and Sharing with the ENES Climate Analytics Service</h1>
+
+<p><img src="images/ecas_logo.png" height="90" width="490" alt="ECAS" style="border: 0"></p>
+
+<p><strong>Sofiane Bendoukha</strong></p>
+
+<p>German Climate Computing Center (DKRZ)</p>
+
+<p>eScience 2019 15th International Conference</p>
+
+<p>24-27 September, San Diego, USA</p>
+
+<p><img src="images/eoschub_logo.png" width="50" alt="ECAS" style="border: 0">  <img src="images/eu.png" width="50" alt="ECAS" style="border: 0"> <br> <small> EOSC-hub receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 777536 </small></p>
+
+</section>
+<section>
+
+<h1>Agenda</h1>
+
+<ul>
+  <li>ECAS presentation</li>
+  <li>Demo</li>
+  <li>Hands on</li>
+  <li>Exercise</li>
+  <li>Break (Lunch)</li>
+  <li>Data sharing with ECAS</li>
+  <li>ECAS &amp; WPS (optional)</li>
+  <li>Wrap up</li>
+</ul>
+
+</section>
+<section>
+<section>
+
+<h1>About Me/Us</h1>
+
+<ul>
+  <li>Sofiane Bendoukha
+    <ul>
+      <li>bendoukha@dkrz.de</li>
+    </ul>
+  </li>
+  <li>Pre-DKRZ
+    <ul>
+      <li>(Scientific) workflow management systems</li>
+      <li>Grid / Cloud computing</li>
+      <li>Service orchestration</li>
+      <li>Workflow modeling</li>
+    </ul>
+  </li>
+  <li>Joined DKRZ in January 2017
+    <ul>
+      <li>
+<strong>Climate</strong> data management</li>
+      <li>Software tools, computing gateways for climate community</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h3>German Climate Computing Center</h3>
+
+<p><img src="images/dkrz_logo_mit_unterzeile.png" width="120" alt="ECAS" style="border: 0"></p>
+
+<ul>
+  <li>Hamburg, Germany, <a href="http://www.dkrz.de">www.dkrz.de</a></li>
+  <li>Supports projects related to
+    <ul>
+      <li>preparation</li>
+      <li>quality assessment,</li>
+      <li>distribution and</li>
+      <li>long-term archiving of data</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h3>German Climate Computing Center</h3>
+
+<p><img src="images/dkrz_logo_mit_unterzeile.png" width="120" alt="ECAS" style="border: 0"></p>
+<ul>
+  <li>Provides high performance computing (HPC) platforms, sophisticated and high capacity data management and services for premium climate science.</li>
+  <li>
+    <p>HLRE-3 “Mistral” Supercomputer</p>
+
+    <ul>
+      <li>3.300 compute nodes</li>
+      <li>100.000 compute cores</li>
+      <li>266 Terabytes of memory and</li>
+      <li>54 Petabytes of disk</li>
+      <li>HLRE-4 coming soon …</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="images/HLRE-3.jpg" width="450" alt="ECAS" style="border: 0"></p>
+
+</section>
+</section>
+<section>
+
+<h1>Tutorial Materials</h1>
+
+<ul>
+  <li>
+    <p>Slides<br>
+<a href="https://statiksof.github.io/ECAS-EsCience-2019/slides/">https://statiksof.github.io/ECAS-EsCience-2019/slides/</a></p>
+  </li>
+  <li>
+    <p>Notebooks<br>
+<a href="https://github.com/ECAS-Lab/ecas-training/">https://github.com/ECAS-Lab/ecas-training/</a></p>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h1>Useful Links</h1>
+
+<ul>
+  <li>
+    <p>ECASLab Web site <br>
+<a href="https://ecaslab.dkrz.de">https://ecaslab.dkrz.de</a></p>
+  </li>
+  <li>
+    <p>Jupyterhub <br>
+<a href="https://ecaslab.dkrz.de/jupyter/">https://ecaslab.dkrz.de/jupyter/</a></p>
+  </li>
+  <li>
+    <p>Ophidia user documentation<br>
+<a href="http://ophidia.cmcc.it/documentation/users/index.html">http://ophidia.cmcc.it/documentation/users/index.html</a></p>
+  </li>
+</ul>
+
+</section>
+<section>
+<section>
+
+<h1><strong>ENES Climate Analytics Service</strong></h1>
+
+<p><img src="images/ecas_logo.png" height="100" width="495" alt="ECAS" style="border: 0"></p>
+
+</section>
+<section>
+
+<h2>The European Open Science Cloud</h2>
+
+<p><img src="images/eosc.png" height="455" width="695" alt="EOSC" style="border: 0"></p>
+
+<p><a href="https://eosc-portal.eu/">https://eosc-portal.eu/</a></p>
+
+</section>
+<section>
+
+<h3>EOSC-hub project</h3>
+
+<p><img src="images/eosc-hub.png" width="750" alt="EUDAT" style="border: 0" hspace="50"></p>
+
+<ul>
+  <li>EC H2020 Project</li>
+  <li>Under the coordination of <strong>EUDAT</strong>, <strong>EGI</strong> and <strong>INDIGO-DataCloud</strong>
+</li>
+  <li>The catalogue includes services in four broad areas: Common, Thematic, Collaborative and Federation.</li>
+  <li>Training activities</li>
+</ul>
+
+<p><small> EOSC-hub receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 777536 </small></p>
+
+</section>
+<section>
+
+<h2>Overview</h2>
+
+<ul>
+  <li>
+<strong>ECAS</strong> is part of <strong>WP 7</strong>: thematic services
+    <ul>
+      <li>
+<strong>ECAS</strong> enables scientific end-users to perform data analysis experiments</li>
+    </ul>
+  </li>
+  <li>Server-based
+    <ul>
+      <li>Computation <strong>@ DKRZ</strong> or <strong>CMCC</strong>
+</li>
+      <li>Avoid data transfer (download)</li>
+      <li>Improved reusability of data and workflows (<strong>FAIR approach</strong>)</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>ECAS</strong> supports different Auth* providers</p>
+
+    <ul>
+      <li>Local and external providers supported (<strong>LDAP</strong>, <strong>B2ACCESS</strong>, <strong>EGI Check In</strong>)</li>
+      <li>Additional AAI providers can be integrated on demand (e.g. <strong>GITHUB</strong>)</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h4>Service Architecture and Interfaces</h4>
+
+<p><img src="images/new_ecas_architecture.png" height="455" width="695" alt="ECAS Architecture" style="border: 0"></p>
+
+</section>
+<section>
+
+<h3>Data overview</h3>
+<p><img src="images/esgf.png" height="80" width="470" alt="ECAS" style="border: 0"></p>
+
+<ul>
+  <li>ECAS provides data access via ESGF</li>
+  <li>Coordinated Regional Climate Downscaling Experiment
+    <ul>
+      <li>~ 100 Tbyte Cordex</li>
+    </ul>
+  </li>
+  <li>Coupled Model Intercomparison Project 5
+    <ul>
+      <li>~ 1.2 Pbyte CMIP 5 data</li>
+    </ul>
+  </li>
+  <li>Coupled Model Intercomparison Project 6
+    <ul>
+      <li>~ 250 Tbyte CMIP6 data from the 1PByte published</li>
+    </ul>
+  </li>
+  <li>Other data pools can be mounted on demand
+    <ul>
+      <li>MPI Grand Ensemble (<strong>MPI-GE</strong>)</li>
+      <li>Data collection exposed in the Federated Data Archive (e.g. <strong>OneData</strong>)</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h2>Ophidia framework overview</h2>
+
+<p><a href="http://ophidia.cmcc.it">ophidia.cmcc.it</a></p>
+
+<ul>
+  <li>The Ophidia framework addresses big data chellenges for eScience
+    <ul>
+      <li>support for declarative, parralel, server-side data analysis exploiting parralel computing techniques</li>
+      <li>end-to-end mechanisms tu support complex experiments and large processing workflows on scientific multi-dimensional cubes</li>
+    </ul>
+  </li>
+  <li>Ophidia supports both <strong>batch</strong> and <strong>interactive</strong> data analytics
+    <ul>
+      <li>More than 50 datacube-oriented <strong>operators</strong> are available, including: data reduction and subsetting, data intercomparison, metadata and provenance management, <br>
+time series analysis with array-based primitives</li>
+      <li>A wide set of (low-level) array-based primitives (over 100) to perform, e.g. data summerization, algebraic expressions, predicates evaluation, statistical analysis</li>
+      <li>Support for complex workflows ad Python applications execution</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="images/oph_logo_symbol_big.png" width="100" alt="Ophidia" style="border: 0"></p>
+
+</section>
+<section>
+
+<h4>Server-side paradigm and datacube abstraction in Ophidia</h4>
+
+<p><img src="images/ophidia.png" height="455" width="700" alt="Ophidia" style="border: 0"></p>
+
+</section>
+<section>
+
+<h2>ECASLab</h2>
+
+<p><img src="images/ecaslab.png" height="480" width="750" alt="Ophidia" style="border: 0"></p>
+
+</section>
+<section>
+
+<h2>Data sharing with ECAS</h2>
+
+<ul>
+  <li>Share your results with your team or with researchers from a broader community
+    <ul>
+      <li>Post-processing datasets</li>
+      <li>Jupyter notebooks</li>
+    </ul>
+  </li>
+  <li>Cloud-based storage and sharing services integrated within ECAS
+    <ul>
+      <li>
+<strong>B2DROP</strong> online storage for external/internal collaborators. <br>
+Keep data synchronized and up-to-date</li>
+      <li>
+<strong>B2SHARE</strong> store and publish research data from diverse contexts. Data assigned a <strong>Persistent Identifiers</strong> for better findability</li>
+      <li>
+<strong>DataHub (OneData)</strong> a global data access solution for eScience</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="images/logo-b2drop.png" height="50" width="70" alt="b2drop" style="border: 0">    <img src="images/b2share.png" height="48" width="70" alt="b2share" style="border: 0">    <img src="images/onedata.png" height="40" width="100" alt="onedata" style="border: 0"></p>
+
+</section>
+</section>
+
+<section>
+<section>
+
+<h1>Demo</h1>
+
+</section>
+<section>
+
+<h3>Register/Log in and explore the Jupyter environment</h3>
+
+<p>When you log in to JupyterHub, a workspace is created for you with following directories:</p>
+
+<ul>
+  <li>
+<strong>/data</strong>: input data required for the workflows/notebooks</li>
+  <li>
+<strong>/notebooks</strong>: set of ready-to-use Jupyter Notebooks with the implemented use cases</li>
+  <li>
+<strong>/workflows</strong>: script-based workflows</li>
+  <li>
+<strong>/quickstart</strong>: quick guide showing how to use JupyterHub and instantiate terminals in ECASLab</li>
+</ul>
+
+</section>
+<section>
+
+<h1>Notebooks</h1>
+
+<p>All notebooks are available in <strong>/notebooks</strong> directory in your jupyter workspace.</p>
+
+<ul>
+  <li>Subsetted map (.ipynb)</li>
+  <li>Tropical nights (.ipynb)</li>
+  <li>Time Series Difference (.ipynb)</li>
+</ul>
+
+</section>
+<section>
+
+<h1>Terminal</h1>
+
+<ul>
+  <li>The Ophidia Terminal is a robust, comprehensive, effective and extremely usable client, developed with characteristics similar to the bash program present in almost all Unix-like environments.</li>
+  <li>In fact, besides submitting the Ophidia operators, it provides history management, embedded command help/manual, operator/command auto-completion, aliases creation and output rendering features.</li>
+  <li>This demo will show examples of usage of the Ophidia Terminal and its main capabilities.</li>
+</ul>
+
+</section>
+<section>
+
+<h1>Hands on</h1>
+
+<p><br></p>
+<ul>
+  <li>Open the following notebook: <br>
+<strong>/notebooks/ECASLab-Training.ipynb</strong>
+</li>
+  <li>It provides step-by-step instructions on how to use the Ophidia operators as well as the PyOphidia library.</li>
+  <li>After the completion you can try to run the other notebooks available under the /notebooks folder or proceed with the following exercise.</li>
+</ul>
+
+</section>
+<section>
+
+<h1>Exercise</h1>
+
+<ul>
+  <li>Calculate the number of Summer days</li>
+  <li>Starting from the daily maximum temperature, the Summer Days index is the annual count of days number of days where TX (daily maximum temperature) &gt; 25°C</li>
+  <li>Based on the definition, try to calculate the number of Summer Days (you can start from the Tropical_Nights.ipynb notebook).</li>
+  <li>Useful information:
+    <ul>
+      <li>
+        <p>Input NetCDF:</p>
+
+        <ul>
+          <li>
+            <p>E63_kp40_198001_199012_T2m_daymax_merged.nc</p>
+          </li>
+          <li>
+            <p>tasmax_day_CMCC-CESM_rcp85_r1i1p1_20960101-21001231.nc</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>25°C: 298.15 Kelvin</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h2>Break?</h2>
+
+</section>
+<section>
+
+<h2>Data Sharing with ECAS</h2>
+
+<ul>
+  <li>Store and sync your data with B2DROP</li>
+  <li>Share and publish your result with B2SHARE</li>
+</ul>
+
+</section>
+<section>
+
+<h2>EUDAT B2DROP</h2>
+
+<ul>
+  <li>B2DROP shared
+    <ul>
+      <li>no log in required</li>
+      <li><a href="https://b2drop.eudat.eu/s/gDyJjMeJ2Xiapwi">https://b2drop.eudat.eu/s/gDyJjMeJ2Xiapwi</a></li>
+    </ul>
+  </li>
+  <li>B2DROP private
+    <ul>
+      <li>initial 20 GB for each user</li>
+      <li>mounted in you user workspace</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h2>EUDAT B2SHARE</h2>
+
+<p><img src="https://github.com/SofianeB/ECAS-B2SHARE/raw/master/demo-ecas-ophidia/ecas-b2share.png" alt=""></p>
+
+<p><a href="https://mybinder.org/v2/gh/SofianeB/ECAS-B2SHARE/master?filepath=demo-ecas-ophidia%2Fecas-b2share.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"></a></p>
+
+</section>
+<section>
+
+<h2>ECAS &amp; WPS (Optional)</h2>
+
+<ul>
+  <li>Provide ECAS workflows as web services</li>
+  <li>Switch the JupyterHub profile and start ECAS-Birdhouse</li>
+</ul>
+
+</section>
+</section>
+<section>
+
+<h1>Wrap up</h1>
+
+<ul>
+  <li>Q &amp; A</li>
+  <li>collect forms</li>
+</ul>
+
+</section>
+<section>
+
+<h1>Stay in touch!</h1>
+
+<ul>
+  <li>Support<br>
+ecas-support@dkrz.de</li>
+  <li>Chat<br>
+<a href="https://gitter.im/ECAS-ECASLab/Lobby">https://gitter.im/ECAS-ECASLab/Lobby</a></li>
+</ul>
+
+</section>
