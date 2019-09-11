@@ -4,7 +4,7 @@ Data Analysis and Sharing with the ENES Climate Analytics Service
 
 <img src="images/ecas_logo.png" height="90" width="490" alt='ECAS' style="border: 0">
 
-**Sofiane Bendoukha**
+**Sofiane Bendoukha** 
 
 German Climate Computing Center (DKRZ)
 
@@ -12,7 +12,7 @@ eScience 2019 15th International Conference
 
 24-27 September, San Diego, USA
 
-<img src="images/eu.png" width="50" alt='ECAS' style="border: 0"> <br/> <small> EOSC-hub receives funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No. 777536 </small>
+<img src="images/eoschub_logo.png" width="50" alt='ECAS' style="border: 0">  <img src="images/eu.png" width="50" alt='ECAS' style="border: 0"> <br/> <small> EOSC-hub receives funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No. 777536 </small>
 
 
 ---
@@ -20,7 +20,7 @@ eScience 2019 15th International Conference
 Agenda
 ======
 
-* ECAS presentation
+* ECAS presentation 
 * Demo
 * Hands on 
 * Exercise
@@ -59,12 +59,22 @@ About Me/Us
   * distribution and
   * long-term archiving of data
 
+---
+
+### German Climate Computing Center
+
+<img src="images/dkrz_logo_mit_unterzeile.png" width="120" alt='ECAS' style="border: 0">
 * Provides high performance computing (HPC) platforms, sophisticated and high capacity data management and services for premium climate science.
 * HLRE-3 "Mistral" Supercomputer
 
-<img src="images/HLRE-3.jpg" width="350" alt='ECAS' style="border: 0">
-
-
+  * 3.300 compute nodes
+  * 100.000 compute cores 
+  * 266 Terabytes of memory and
+  * 54 Petabytes of disk
+  * HLRE-4 coming soon ...
+ 
+<img src="images/HLRE-3.jpg" width="450" alt='ECAS' style="border: 0">
+ 
 ***
 
 Tutorial Materials
@@ -128,12 +138,12 @@ Overview
 --------
 
 * **ECAS** is part of **WP 7**: thematic services
-  * ECAS enables scientific end-users to perform data analysis experiments 
+  * **ECAS** enables scientific end-users to perform data analysis experiments 
 * Server-based 
   * Computation **@ DKRZ** or **CMCC**
   * Avoid data transfer (download)
   * Improved reusability of data and workflows (**FAIR approach**)
-* ECAS supports different Auth* providers 
+* **ECAS** supports different Auth* providers 
   
   * Local and external providers supported (**LDAP**, **B2ACCESS**, **EGI Check In**)  
   * Additional AAI providers can be integrated on demand (e.g. **GITHUB**) 
@@ -312,7 +322,7 @@ Exercise
 ## ECAS & WPS (Optional)
 
 * Provide ECAS workflows as web services 
-* Switch JupyterHub profile and open ECAS-Birdhouse
+* Switch the JupyterHub profile and start ECAS-Birdhouse
  
 
 ***
